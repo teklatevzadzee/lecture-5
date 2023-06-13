@@ -1,13 +1,14 @@
+header {
+    margin-top: 15px;
+    margin-left: 15px;
+}
 .img1 {
     vertical-align: middle;
     width: 223px;
     height: 58px;
     margin-left: 52px;
 }
-header {
-    margin-top: 15px;
-    margin-left: 15px;
-}
+
  a {
     color: #8D81FF;  
     font-weight:700;
@@ -20,6 +21,10 @@ header {
     font-weight: 700;
     size: 26px;
  }
+ section 
+{
+    margin-left: 52px;
+}
  nav {
     display: inline-block;
  }
@@ -29,17 +34,16 @@ li {
     display: inline;
     margin-left: 70px;
 }
-h2 {
-    color:#4E6FAE ;
-    font-weight: 700;
-    margin-bottom: 14px;
-    height: 34px;
-    width: 578px;
-    font-size: 20px;
-    margin-top: 14px;
+.f1 {
+    font-family: "BPG Square", sans-serif;
 }
-
-
+.f2{
+    font-family: "BPG Square Banner Caps 2013", sans-serif;
+}
+.f3 {
+    font-family: "BPG Nostalgia", sans-serif;
+    font-weight: 700;
+}
 .date
 { 
     font-family: 'Helvetica';
@@ -63,13 +67,18 @@ h3
     width: 70px;
     height: 34px;
     font-size: 24px;
+}
+h2 {
+    color:#4E6FAE ;
+    font-weight: 700;
+    margin-bottom: 14px;
+    height: 34px;
+    width: 600px;
+    font-size: 20px;
+    margin-top: 14px;
+}
 
 
-}
-section 
-{
-    margin-left: 52px;
-}
 .img2 {
     
     width: 447px;
@@ -83,13 +92,6 @@ p {
     font-size: 16px;
     color: #4E6FAE;
     margin-bottom: 15px;
-   
-   
-}
-.p3
-{
-    width: 1021px;
-    height: 148px;
 }
 
 .p2 {
@@ -97,6 +99,12 @@ p {
     width: 1450px;
 
 }
+.p3
+{
+    width: 1021px;
+    height: 148px;
+}
+
 
 footer
 {
@@ -161,9 +169,11 @@ margin: 21px 170px 0px 23px;
 {
     margin:29px 37px 41px 36px;
     display: inline-block;
-    
-
 }
+.placement {
+    float: right;
+    width: 335px;
+ }
 .box1
 { 
 font-family: Helvetica Neue LT GEO;
@@ -174,23 +184,44 @@ height: 95px;
 color: #7E8898;
 display: inline-block;
 margin:20px 20px 20px 20px;
-
  }
 
- .placement {
-    float: right;
-    width: 335px;
-
-
- }
  .greybox2
  {
-   width: 500px;
-height: 192px;
+    width: 500px;
+    height: 192px;
     background-color: #E7E7E7;
     display: inline-block;
     margin:26px 194px 93px 26px;
  }
+ .greybox3 {
+    height: 735px;
+    width: 1660px;
+    background-color:#E7E7E7;;
+    display: inline-block;
+    margin-top: 20px;
+}
+ .text 
+ {
+    display: inline-block;
+    margin-left: 162px;
+    margin-top:93px ;
+    margin-bottom: 455px;
+ }
+  h5 
+ {
+    width: 434px;
+    height: 24px;
+    font-family: 'Helvetica Neue LT GEO';
+    font-weight: 400;
+    font-size: 17px;
+    color: #7E8898;
+    margin-top: 15px;
+ }
+ span {
+    color: #3F4145;
+}
+
  .map {
     display: inline-block;
     height: 549px;
@@ -198,34 +229,7 @@ height: 192px;
     vertical-align: top;
     margin-top: 93px;
  }
- .text 
- {
-    display: inline-block;
-    margin-left: 162px;
-    margin-top:93px ;
-    margin-bottom: 455px;
-    width: ;
- }
- h5 
- {
-    width: 434px;
-height: 24px;
-font-family: 'Helvetica Neue LT GEO';
-font-weight: 400;
-font-size: 17px;
-color: #7E8898;
-margin-top: 15px;
- }
-span {
-    color: #3F4145;
-}
-
-.greybox3 {
-    height: 735px;
-width: 1660px;
-background-color:#E7E7E7;;
-display: inline-block;
-margin-top: 20px;
 
 
-}
+
+
